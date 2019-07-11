@@ -1,12 +1,17 @@
 ---
-title: "Learn Theme for Hugo"
+title: "Essentials of Ventilator Managment"
 ---
+# Essentials of Ventilator Managment
+## Table of Contents
+{{% children depth="3"%}}
+## Technical Notes
+- This site is built using [Hugo](https://gohugo.io/),  a fast and modern static website engine written in [Go](https://golang.org/).
 
-# Hugo learn theme
+- The theme is a partial porting of the [Learn theme](http://learn.getgrav.org/) of [Grav](https://getgrav.org/).
 
-[Hugo-theme-learn](http://github.com/matcornic/hugo-theme-learn) is a theme for [Hugo](https://gohugo.io/), a fast and modern static website engine written in Go. Where Hugo is often used for blogs, this multilingual-ready theme is **fully designed for documentation**.
+- The graphics are programmed in [Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript) with the [p5](http://p5js.org/) library.
 
-This theme is a partial porting of the [Learn theme](http://learn.getgrav.org/) of [Grav](https://getgrav.org/), a modern flat-file CMS written in PHP.
+## Links, and References
+- [Stop Drawing a Dead Fish](http://worrydream.com/#!/StopDrawingDeadFish) is an excellent talk by Bret Vict on using the computer as a new visual medium.
 
-{{% notice tip %}}Learn theme works with a _page tree structure_ to organize content : All contents are pages, which belong to other pages. 
-{{% /notice %}}
+## Acknowledgments

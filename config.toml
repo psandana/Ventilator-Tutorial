@@ -1,5 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "/book"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Interactive Book on Ventilator Managment"
+author = "Sami Safadi"
 theme = "hugo-theme-learn"
-publishDir = "docs"
+publishDir = "book"
+[outputs]
+home = [ "HTML", "RSS", "JSON"]

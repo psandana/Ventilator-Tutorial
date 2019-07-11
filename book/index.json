@@ -1,0 +1,85 @@
+[
+{
+	"uri": "/book/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": " Essentials of Ventilator Managment Mechanical Ventilation is an essential skill needed to care for critically-ill patients. Proficiency in setting up, and monitoring the ventilator is an essential skill in modern intensive care practice. This website is intended to be used as an interactive book.\nInteractive Ventilator Graphs You will encounter interactive ventilator graphs on this website. Some of them (like the one below) is pre-programmed, and you can change its parameters. Others will allow you to change their parameters to illustrate learning concepts.\n You can click on the graph to pause the animation. Clicking again will resume it.\n\r let frame = document.querySelector('#frame') frame.width = frame.parentElement.clientWidth  "
+},
+{
+	"uri": "/book/scenarios/asthma_vc/",
+	"title": "Asthma with Volume Control",
+	"tags": [],
+	"description": "",
+	"content": "  let frame = document.querySelector('#frame') frame.width = frame.parentElement.parentElement.offsetWidth * .75  "
+},
+{
+	"uri": "/book/modes/",
+	"title": "Modes of Mechanical Ventilation",
+	"tags": [],
+	"description": "",
+	"content": " Modes of Mechanical Ventilation This section describes several modes that are commonly used in today\u0026rsquo;s clinical practice. The ventilator monitor will usually display three waveforms, pressure, flow, and volume.\nFor each one of these modes, try to answer the following questions: What type of breath is delivered to the patient? which waveform changes based on the venilator settings? and which waveform is fixed?\n\r"
+},
+{
+	"uri": "/book/modes/vc/",
+	"title": "Volume Control",
+	"tags": [],
+	"description": "",
+	"content": "  let frame = document.querySelector('#frame') frame.width = frame.parentElement.parentElement.offsetWidth * .75  "
+},
+{
+	"uri": "/book/scenarios/asthma_pc/",
+	"title": "Asthma with Pressure Control",
+	"tags": [],
+	"description": "",
+	"content": "  let frame = document.querySelector('#frame') frame.width = frame.parentElement.parentElement.offsetWidth * .75  "
+},
+{
+	"uri": "/book/scenarios/",
+	"title": "Clinical Scenarios",
+	"tags": [],
+	"description": "",
+	"content": " Clinical Scenarios This section describes several clinical scenarios that you may encounter in the ICU.\nYou can use the graph controls to change the size of the waveforms\n\r"
+},
+{
+	"uri": "/book/modes/pc/",
+	"title": "Pressure Control",
+	"tags": [],
+	"description": "",
+	"content": "  let frame = document.querySelector('#frame') frame.width = frame.parentElement.parentElement.offsetWidth * .75  "
+},
+{
+	"uri": "/book/scenarios/ards_vc/",
+	"title": "ARDS with Volume Control",
+	"tags": [],
+	"description": "",
+	"content": "  let frame = document.querySelector('#frame') frame.width = frame.parentElement.parentElement.offsetWidth * .75  "
+},
+{
+	"uri": "/book/scenarios/ards_pc/",
+	"title": "ARDS with Pressure Control",
+	"tags": [],
+	"description": "",
+	"content": "  let frame = document.querySelector('#frame') frame.width = frame.parentElement.parentElement.offsetWidth * .75  "
+},
+{
+	"uri": "/book/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/book/",
+	"title": "Essentials of Ventilator Managment",
+	"tags": [],
+	"description": "",
+	"content": " Essentials of Ventilator Managment Table of Contents \rIntroduction\r\r\r\r\rModes of Mechanical Ventilation\r\r\r\rVolume Control\r\r\r\r\rPressure Control\r\r\r\r\r\rClinical Scenarios\r\r\r\rAsthma with Volume Control\r\r\r\r\rAsthma with Pressure Control\r\r\r\r\rARDS with Volume Control\r\r\r\r\rARDS with Pressure Control\r\r\r\r\r\rTechnical Notes  This site is built using Hugo, a fast and modern static website engine written in Go.\n The theme is a partial porting of the Learn theme of Grav.\n The graphics are programmed in Javascript with the p5 library.\n  Links, and References  Stop Drawing a Dead Fish is an excellent talk by Bret Vict on using the computer as a new visual medium.  Acknowledgments "
+},
+{
+	"uri": "/book/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
