@@ -18,7 +18,4 @@ You will encounter interactive ventilator graphs on this website. Some of them (
 You can click on the graph to pause the animation. Clicking again will resume it.
 {{% /notice %}}
 
-<script>
-let frame = document.querySelector('#frame')
-frame.width = frame.parentElement.clientWidth
-</script>
+{{% resizeframe %}}

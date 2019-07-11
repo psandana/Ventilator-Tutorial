@@ -8,6 +8,6 @@ weight: 10
 
 <script>
 let frame = document.querySelector('#frame')
-frame.width = frame.parentElement.parentElement.offsetWidth * .75
+frame.width = frame.parentElement.clientWidth
 </script>
 

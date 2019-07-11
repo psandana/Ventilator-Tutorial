@@ -7,11 +7,11 @@
   </url>
   
   <url>
-    <loc>/book/scenarios/asthma_vc/</loc>
+    <loc>/book/modes/introduction/</loc>
   </url>
   
   <url>
-    <loc>/book/modes/</loc>
+    <loc>/book/scenarios/asthma_vc/</loc>
   </url>
   
   <url>
@@ -19,15 +19,19 @@
   </url>
   
   <url>
+    <loc>/book/modes/</loc>
+  </url>
+  
+  <url>
     <loc>/book/scenarios/asthma_pc/</loc>
   </url>
   
   <url>
-    <loc>/book/scenarios/</loc>
+    <loc>/book/modes/pc/</loc>
   </url>
   
   <url>
-    <loc>/book/modes/pc/</loc>
+    <loc>/book/scenarios/</loc>
   </url>
   
   <url>
@@ -36,6 +40,10 @@
   
   <url>
     <loc>/book/scenarios/ards_pc/</loc>
+  </url>
+  
+  <url>
+    <loc>/book/misc/</loc>
   </url>
   
   <url>

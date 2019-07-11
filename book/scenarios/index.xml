@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/book/scenarios/asthma_vc/</guid>
-      <description>  let frame = document.querySelector(&#39;#frame&#39;) frame.width = frame.parentElement.parentElement.offsetWidth * .75  </description>
+      <description>  let frame = document.querySelector(&#39;#frame&#39;) frame.width = frame.parentElement.clientWidth  </description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/book/scenarios/asthma_pc/</guid>
-      <description>  let frame = document.querySelector(&#39;#frame&#39;) frame.width = frame.parentElement.parentElement.offsetWidth * .75  </description>
+      <description>  let frame = document.querySelector(&#39;#frame&#39;) frame.width = frame.parentElement.clientWidth  </description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/book/scenarios/ards_vc/</guid>
-      <description>  let frame = document.querySelector(&#39;#frame&#39;) frame.width = frame.parentElement.parentElement.offsetWidth * .75  </description>
+      <description>  let frame = document.querySelector(&#39;#frame&#39;) frame.width = frame.parentElement.clientWidth  </description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/book/scenarios/ards_pc/</guid>
-      <description>  let frame = document.querySelector(&#39;#frame&#39;) frame.width = frame.parentElement.parentElement.offsetWidth * .75  </description>
+      <description>  let frame = document.querySelector(&#39;#frame&#39;) frame.width = frame.parentElement.clientWidth  </description>
     </item>
     
   </channel>

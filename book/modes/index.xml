@@ -11,21 +11,37 @@
     
     
     <item>
-      <title>Volume Control</title>
+      <title>Introduction</title>
+      <link>/book/modes/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/book/modes/introduction/</guid>
+      <description> Breath types during mechanical ventilation Continous mandatory ventilation In this mode, all breaths are mandatory, and depend soley on the ventilatory settins. They can be either volume-controlled, or pressure controlled.
+Continous supportive ventilation All breaths are spontanious
+Intermittent mandatory ventilation Both spontaneious and mandatory breaths are delivered.
+Deducing ventilation mode vased on breath type graph TD Mandatory[Are mandatory breaths allowed?] Spont[Are spontaneous breath allowed between mandatory breaths?] Mandatory -- No --&amp;gt; CSV Mandatory -- Yes --&amp;gt; Spont Spont -- No --&amp;gt; CMV Spont -- Yes --&amp;gt; IMV  </description>
+    </item>
+    
+    <item>
+      <title>CMV Volume-Control</title>
       <link>/book/modes/vc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/book/modes/vc/</guid>
-      <description>  let frame = document.querySelector(&#39;#frame&#39;) frame.width = frame.parentElement.parentElement.offsetWidth * .75  </description>
+      <description>The constant variables in this mode is the tidal volume, and flow. Airway pressure will vary depending on patient-related factors such as the lung compliance, and airway resistance.
+The ventilator graph below is that of a normal patient on CMV VC. You can change the ventilator settings, and the graph will automatically change.
+  let fs = document.getElementsByTagName(&#39;iframe&#39;) for (f of fs) { f.frameBorder = 0; f.width = f.parentElement.clientWidth; }  </description>
     </item>
     
     <item>
-      <title>Pressure Control</title>
+      <title>CMV Pressure-Control</title>
       <link>/book/modes/pc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/book/modes/pc/</guid>
-      <description>  let frame = document.querySelector(&#39;#frame&#39;) frame.width = frame.parentElement.parentElement.offsetWidth * .75  </description>
+      <description>The constant variable in this mode is the pressure applied to the airway during inspiration. Flow, and volume depend on the pressure as well as on patient-related factors such as the lung compliance, and airway resistance.
+The ventilator graph below is that of a normal patient on CMV PC. You can change the ventilator settings, and the graph will automatically change.
+  let fs = document.getElementsByTagName(&#39;iframe&#39;) for (f of fs) { f.</description>
     </item>
     
   </channel>
