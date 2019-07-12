@@ -18,7 +18,7 @@
 	"title": "Asthma with Volume Control",
 	"tags": [],
 	"description": "",
-	"content": "  let frame = document.querySelector('#frame') frame.width = frame.parentElement.clientWidth  "
+	"content": "  let fs = document.getElementsByTagName('iframe') for (f of fs) { f.frameBorder = 0; f.width = f.parentElement.clientWidth; }  "
 },
 {
 	"uri": "/book/modes/vc/",
@@ -39,7 +39,7 @@
 	"title": "Asthma with Pressure Control",
 	"tags": [],
 	"description": "",
-	"content": "  let frame = document.querySelector('#frame') frame.width = frame.parentElement.clientWidth  "
+	"content": "  let fs = document.getElementsByTagName('iframe') for (f of fs) { f.frameBorder = 0; f.width = f.parentElement.clientWidth; }  "
 },
 {
 	"uri": "/book/modes/pc/",
@@ -60,14 +60,21 @@
 	"title": "ARDS with Volume Control",
 	"tags": [],
 	"description": "",
-	"content": "  let frame = document.querySelector('#frame') frame.width = frame.parentElement.clientWidth  "
+	"content": "  let fs = document.getElementsByTagName('iframe') for (f of fs) { f.frameBorder = 0; f.width = f.parentElement.clientWidth; }  "
 },
 {
 	"uri": "/book/scenarios/ards_pc/",
 	"title": "ARDS with Pressure Control",
 	"tags": [],
 	"description": "",
-	"content": "  let frame = document.querySelector('#frame') frame.width = frame.parentElement.clientWidth  "
+	"content": "  let fs = document.getElementsByTagName('iframe') for (f of fs) { f.frameBorder = 0; f.width = f.parentElement.clientWidth; }  "
+},
+{
+	"uri": "/book/scenarios/case/",
+	"title": "Clinical Case",
+	"tags": [],
+	"description": "",
+	"content": " A Case of Asthma Exacerbation A 22 year old female with history of asthma was admitted to the ED with shortness of breath. Her dyspnea worsened, and she failed to respond to non-invasive therapy. She was ultimately intbuated.\nThe initial ventilation settings were:  mode AC/VC, tidal volume 500 ml, respiratory rate 22 per min, PEEP 5 mmHg, Flow 60 L per min. \nYou were called to her bedside as she has been getting progressivly more hypotensive over the past 30 minutes.\nTake a look at the vent monitor below, and make appropriate changes to the vent. You can use the Pause Flow button below to pause the flow, and assess alveolar pressure.\nAs you change the settings watch the total PEEP, and retained volume change. The goal is to decrease the two numbers as much as possible.\nOPTION 1 - Adjust the Tidal Volume Increase TV to 800 ml Decrease TV to 300 ml Decrease TV to 100 ml\nOPTION 2 - Adjust the Respiratory Rate Increase RR to 30 breath per min Decrease RR to 15 breath per min Decrease RR to 10 breath per min\nOPTION 3 - Change the Amount of Flow Decrease the flow to 30 L/min Keep the flow at 60 L/min Increase the flow to 90 L/min\n  Pause | Resume Clear X+ X- Y+ Y- Palv Pmus Insp Pause Exp Pause Pertinent Metrics: Peak Pressure: {{Math.round(maxPaw)}} cmH2O, Plateau Pressure: {{Math.round(maxPalv)}} cmH2O, Total PEEP: {{Math.round(minPalv)}} cmH2O, Retained Volume: {{Math.round(minVolume * 1000)}} mL.  \n  Vent.RR = 25; Lung.Resistance = 30; window.onload = function () { Controls.xplus(); Controls.xplus(); Controls.xplus(); Controls.yminus(); Controls.yminus(); }  "
 },
 {
 	"uri": "/book/misc/",
@@ -88,7 +95,7 @@
 	"title": "Essentials of Ventilator Managment",
 	"tags": [],
 	"description": "",
-	"content": " Essentials of Ventilator Managment Table of Contents \rIntroduction\r\r\r\r\rModes of Mechanical Ventilation\r\r\r\rIntroduction\r\r\r\r\rCMV Volume-Control\r\r\r\r\rCMV Pressure-Control\r\r\r\r\r\rClinical Scenarios\r\r\r\rAsthma with Volume Control\r\r\r\r\rAsthma with Pressure Control\r\r\r\r\rARDS with Volume Control\r\r\r\r\rARDS with Pressure Control\r\r\r\r\r\rMiscellaneous\r\r\r\r\r"
+	"content": " Essentials of Ventilator Managment Table of Contents \rIntroduction\r\r\r\r\rModes of Mechanical Ventilation\r\r\r\rIntroduction\r\r\r\r\rCMV Volume-Control\r\r\r\r\rCMV Pressure-Control\r\r\r\r\r\rClinical Scenarios\r\r\r\rAsthma with Volume Control\r\r\r\r\rAsthma with Pressure Control\r\r\r\r\rARDS with Volume Control\r\r\r\r\rARDS with Pressure Control\r\r\r\r\rClinical Case\r\r\r\r\r\rMiscellaneous\r\r\r\r\r"
 },
 {
 	"uri": "/book/tags/",
