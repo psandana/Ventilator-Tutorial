@@ -1,10 +1,7 @@
 ---
 title: Clinical Case
-weight: 100
-
+weight: 5
 ---
-
-## A Case of Asthma Exacerbation
 
 A 22 year old female with history of asthma was admitted to the ED with shortness of breath. Her dyspnea worsened, and she failed to respond to non-invasive therapy. She was ultimately intbuated.
 
@@ -18,19 +15,19 @@ Take a look at the vent monitor below, and make appropriate changes to the vent.
 As you change the settings watch the total PEEP, and retained volume change. The goal is to decrease the two numbers as much as possible. 
 
 
-### OPTION 1 - Adjust the Tidal Volume
+#### OPTION 1 - Adjust the Tidal Volume
 
 <button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.TV = 800">Increase TV to 800 ml</button>
 <button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.TV = 300">Decrease TV to 300 ml</button>
 <button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.TV = 100">Decrease TV to 100 ml</button>
 
-### OPTION 2 - Adjust the Respiratory Rate</h5>
+#### OPTION 2 - Adjust the Respiratory Rate</h5>
 
 <button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.RR = 30">Increase RR to 30 breath per min</button>
 <button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.RR = 15">Decrease RR to 15 breath per min</button>
 <button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.RR = 10">Decrease RR to 10 breath per min</button>
 
-### OPTION 3 - Change the Amount of Flow</h5>
+#### OPTION 3 - Change the Amount of Flow</h5>
 
 <button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.Flow = 30">Decrease the flow to 30 L/min</button>
 <button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.Flow = 60">Keep the flow at 60 L/min</button>
@@ -66,7 +63,7 @@ As you change the settings watch the total PEEP, and retained volume change. The
 
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
 <script src="https://iculearning.com/api/main.bundle.js"></script>
 
 <script type="text/javascript">

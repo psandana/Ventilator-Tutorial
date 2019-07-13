@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/tutorial/images/favicon.png" type="image/png">
+
+    <title>Clinical Case :: Ventilator Managment Tutorial</title>
+
+    
+    <link href="/tutorial/css/nucleus.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/fontawesome-all.min.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/hybrid.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/featherlight.min.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/perfect-scrollbar.min.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/auto-complete.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/atom-one-dark-reasonable.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/theme.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/hugo-theme.css?1562980498" rel="stylesheet">
+    
+
+    <script src="/tutorial/js/jquery-3.3.1.min.js?1562980498"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/tutorial/scenarios/case/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="/tutorial">
+  <p style="text-transform: uppercase;">Vent Managment Tutorial</p>
+  
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/tutorial/js/lunr.min.js?1562980498"></script>
+<script type="text/javascript" src="/tutorial/js/auto-complete.js?1562980498"></script>
+<script type="text/javascript">
+    
+        var baseurl = "\/tutorial";
+    
+</script>
+<script type="text/javascript" src="/tutorial/js/search.js?1562980498"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/introduction/" title="Introduction" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/introduction/">
+          <b>1. </b>Introduction
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/modes/" title="Modes of Mechanical Ventilation" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/modes/">
+          <b>2. </b>Modes of Mechanical Ventilation
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/modes/breath_types/" title="Breath Types" class="dd-item ">
+        <a href="/tutorial/modes/breath_types/">
+        Breath Types
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/modes/vc/" title="CMV Volume-Control" class="dd-item ">
+        <a href="/tutorial/modes/vc/">
+        CMV Volume-Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/modes/pc/" title="CMV Pressure-Control" class="dd-item ">
+        <a href="/tutorial/modes/pc/">
+        CMV Pressure-Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/scenarios/" title="Clinical Scenarios" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/tutorial/scenarios/">
+          <b>3. </b>Clinical Scenarios
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/scenarios/case/" title="Clinical Case" class="dd-item active">
+        <a href="/tutorial/scenarios/case/">
+        Clinical Case
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/scenarios/asthma_vc/" title="Asthma with Volume Control" class="dd-item ">
+        <a href="/tutorial/scenarios/asthma_vc/">
+        Asthma with Volume Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/scenarios/asthma_pc/" title="Asthma with Pressure Control" class="dd-item ">
+        <a href="/tutorial/scenarios/asthma_pc/">
+        Asthma with Pressure Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/scenarios/ards_vc/" title="ARDS with Volume Control" class="dd-item ">
+        <a href="/tutorial/scenarios/ards_vc/">
+        ARDS with Volume Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/scenarios/ards_pc/" title="ARDS with Pressure Control" class="dd-item ">
+        <a href="/tutorial/scenarios/ards_pc/">
+        ARDS with Pressure Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/free/" title="Free Mode" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/free/">
+          <b>4. </b>Free Mode
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/misc/" title="Miscellaneous" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/misc/">
+          <b>5. </b>Miscellaneous
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <a>Built by <a href="mailto:samisaf@gmail.com">Sami Safadi, MD</a>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/tutorial/'>Ventilator Managment Tutorial</a> > <a href='/tutorial/scenarios/'>Clinical Scenarios</a> > Clinical Case
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#option-1-adjust-the-tidal-volume">OPTION 1 - Adjust the Tidal Volume</a></li>
+<li><a href="#option-2-adjust-the-respiratory-rate-h5">OPTION 2 - Adjust the Respiratory Rate</h5></a></li>
+<li><a href="#option-3-change-the-amount-of-flow-h5">OPTION 3 - Change the Amount of Flow</h5></a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Clinical Case
+            </h1>
+          
+
+        
+
+
+
+
+
+<p>A 22 year old female with history of asthma was admitted to the ED with shortness of breath. Her dyspnea worsened, and she failed to respond to non-invasive therapy. She was ultimately intbuated.</p>
+
+<p>The initial ventilation settings were: <u> mode AC/VC, tidal volume 500 ml, respiratory rate 22 per min,
+PEEP 5 mmHg, Flow 60 L per min. </u></p>
+
+<p>You were called to her bedside as she has been getting progressivly more hypotensive over the past 30 minutes.</p>
+
+<p>Take a look at the vent monitor below, and make appropriate changes to the vent. You can use the <b>Pause Flow</b> button below to pause the flow, and assess alveolar pressure.</p>
+
+<p>As you change the settings watch the total PEEP, and retained volume change. The goal is to decrease the two numbers as much as possible.</p>
+
+<h4 id="option-1-adjust-the-tidal-volume">OPTION 1 - Adjust the Tidal Volume</h4>
+
+<p><button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.TV = 800">Increase TV to 800 ml</button>
+<button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.TV = 300">Decrease TV to 300 ml</button>
+<button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.TV = 100">Decrease TV to 100 ml</button></p>
+
+<h4 id="option-2-adjust-the-respiratory-rate-h5">OPTION 2 - Adjust the Respiratory Rate</h5></h4>
+
+<p><button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.RR = 30">Increase RR to 30 breath per min</button>
+<button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.RR = 15">Decrease RR to 15 breath per min</button>
+<button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.RR = 10">Decrease RR to 10 breath per min</button></p>
+
+<h4 id="option-3-change-the-amount-of-flow-h5">OPTION 3 - Change the Amount of Flow</h5></h4>
+
+<p><button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.Flow = 30">Decrease the flow to 30 L/min</button>
+<button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.Flow = 60">Keep the flow at 60 L/min</button>
+<button class="btn-small btn-flat deep-purple lighten-4" onclick="Vent.Flow = 90">Increase the flow to 90 L/min</button></p>
+
+<div id="p5canvas"></div>
+
+<div>
+    <!-- Play Controls -->
+    <button class="btn-small btn-flat yellow lighten-4" onclick="Controls.pauseResume()">Pause | Resume</button>
+    <button class="btn-small btn-flat green lighten-4" onclick="Graph.clear()">Clear</button>
+    <!-- Zoom Controls -->
+    <button class="btn-small btn-flat light-blue lighten-4" onclick="Controls.xplus()">X+</button>
+    <button class="btn-small btn-flat light-blue lighten-4" onclick="Controls.xminus()">X-</button>
+    <button class="btn-small btn-flat light-blue lighten-4" onclick="Controls.yplus()">Y+</button>
+    <button class="btn-small btn-flat light-blue lighten-4" onclick="Controls.yminus()">Y-</button>
+    <!-- Toggle Controls -->
+    <button class="btn-small btn-flat deep-purple lighten-4" onclick="Controls.togglePalv()">Palv</button>
+    <button class="btn-small btn-flat deep-purple lighten-4" onclick="Controls.togglePmus()">Pmus</button>
+    <!-- Flow Pause Controls -->
+    <button class="btn-small btn-flat red lighten-4" ontouchstart="Controls.holdFlowInsp()" ontouchend="Controls.releaseFlow()" onmouseup="Controls.releaseFlow()" onmousedown="Controls.holdFlowInsp()">Insp Pause</button>
+    <button class="btn-small btn-flat red lighten-4" ontouchstart="Controls.holdFlowExp()" ontouchend="Controls.releaseFlow()" onmouseup="Controls.releaseFlow()" onmousedown="Controls.holdFlowExp()">Exp Pause</button>
+ <div id="lastcycle">
+    <p><u>Pertinent Metrics:</u>
+        Peak Pressure: {{Math.round(maxPaw)}} cmH2O, Plateau Pressure: {{Math.round(maxPalv)}} cmH2O,
+        <b>Total PEEP: </b>{{Math.round(minPalv)}} cmH2O,
+        <b>Retained Volume: </b>{{Math.round(minVolume * 1000)}}
+        mL.
+    </p>
+</div>
+
+<p></div></p>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+<script src="https://iculearning.com/api/main.bundle.js"></script>
+
+<script type="text/javascript">
+    Vent.RR = 25;
+    Lung.Resistance = 30;
+    window.onload = function () {
+        Controls.xplus();
+        Controls.xplus();
+        Controls.xplus();
+        Controls.yminus();
+        Controls.yminus();
+    }
+</script>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/tutorial/scenarios/" title="Clinical Scenarios"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/tutorial/scenarios/asthma_vc/" title="Asthma with Volume Control" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/tutorial/js/clipboard.min.js?1562980498"></script>
+    <script src="/tutorial/js/perfect-scrollbar.min.js?1562980498"></script>
+    <script src="/tutorial/js/perfect-scrollbar.jquery.min.js?1562980498"></script>
+    <script src="/tutorial/js/jquery.sticky.js?1562980498"></script>
+    <script src="/tutorial/js/featherlight.min.js?1562980498"></script>
+    <script src="/tutorial/js/html5shiv-printshiv.min.js?1562980498"></script>
+    <script src="/tutorial/js/highlight.pack.js?1562980498"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/tutorial/js/modernizr.custom-3.6.0.js?1562980498"></script>
+    <script src="/tutorial/js/learn.js?1562980498"></script>
+    <script src="/tutorial/js/hugo-learn.js?1562980498"></script>
+
+    <link href="/tutorial/mermaid/mermaid.css?1562980498" rel="stylesheet" />
+    <script src="/tutorial/mermaid/mermaid.js?1562980498"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

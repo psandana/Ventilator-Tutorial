@@ -1,6 +1,6 @@
 ---
-title: "Essentials of Ventilator Managment"
+title: "Ventilator Managment Tutorial"
 ---
-# Essentials of Ventilator Managment
+# Ventilator Managment Tutorial
 ## Table of Contents
 {{% children depth="3"%}}

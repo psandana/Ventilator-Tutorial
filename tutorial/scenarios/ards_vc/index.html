@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/tutorial/images/favicon.png" type="image/png">
+
+    <title>ARDS with Volume Control :: Ventilator Managment Tutorial</title>
+
+    
+    <link href="/tutorial/css/nucleus.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/fontawesome-all.min.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/hybrid.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/featherlight.min.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/perfect-scrollbar.min.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/auto-complete.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/atom-one-dark-reasonable.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/theme.css?1562980498" rel="stylesheet">
+    <link href="/tutorial/css/hugo-theme.css?1562980498" rel="stylesheet">
+    
+
+    <script src="/tutorial/js/jquery-3.3.1.min.js?1562980498"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/tutorial/scenarios/ards_vc/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="/tutorial">
+  <p style="text-transform: uppercase;">Vent Managment Tutorial</p>
+  
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/tutorial/js/lunr.min.js?1562980498"></script>
+<script type="text/javascript" src="/tutorial/js/auto-complete.js?1562980498"></script>
+<script type="text/javascript">
+    
+        var baseurl = "\/tutorial";
+    
+</script>
+<script type="text/javascript" src="/tutorial/js/search.js?1562980498"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/introduction/" title="Introduction" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/introduction/">
+          <b>1. </b>Introduction
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/modes/" title="Modes of Mechanical Ventilation" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/modes/">
+          <b>2. </b>Modes of Mechanical Ventilation
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/modes/breath_types/" title="Breath Types" class="dd-item ">
+        <a href="/tutorial/modes/breath_types/">
+        Breath Types
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/modes/vc/" title="CMV Volume-Control" class="dd-item ">
+        <a href="/tutorial/modes/vc/">
+        CMV Volume-Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/modes/pc/" title="CMV Pressure-Control" class="dd-item ">
+        <a href="/tutorial/modes/pc/">
+        CMV Pressure-Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/scenarios/" title="Clinical Scenarios" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/tutorial/scenarios/">
+          <b>3. </b>Clinical Scenarios
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/scenarios/case/" title="Clinical Case" class="dd-item ">
+        <a href="/tutorial/scenarios/case/">
+        Clinical Case
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/scenarios/asthma_vc/" title="Asthma with Volume Control" class="dd-item ">
+        <a href="/tutorial/scenarios/asthma_vc/">
+        Asthma with Volume Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/scenarios/asthma_pc/" title="Asthma with Pressure Control" class="dd-item ">
+        <a href="/tutorial/scenarios/asthma_pc/">
+        Asthma with Pressure Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/scenarios/ards_vc/" title="ARDS with Volume Control" class="dd-item active">
+        <a href="/tutorial/scenarios/ards_vc/">
+        ARDS with Volume Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/tutorial/scenarios/ards_pc/" title="ARDS with Pressure Control" class="dd-item ">
+        <a href="/tutorial/scenarios/ards_pc/">
+        ARDS with Pressure Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/free/" title="Free Mode" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/free/">
+          <b>4. </b>Free Mode
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/tutorial/misc/" title="Miscellaneous" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/tutorial/misc/">
+          <b>5. </b>Miscellaneous
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <a>Built by <a href="mailto:samisaf@gmail.com">Sami Safadi, MD</a>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/tutorial/'>Ventilator Managment Tutorial</a> > <a href='/tutorial/scenarios/'>Clinical Scenarios</a> > ARDS with Volume Control
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              ARDS with Volume Control
+            </h1>
+          
+
+        
+
+
+
+<iframe id='frame' src="https://iculearning.com/api/vc/?compliance=0.02" width="500", height="1000", frameborder="0"></iframe>
+
+<script>
+    let fs = document.getElementsByTagName('iframe')
+    for (f of fs) {
+        f.frameBorder = 0;
+        f.width = f.parentElement.clientWidth;
+    }
+</script>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/tutorial/scenarios/asthma_pc/" title="Asthma with Pressure Control"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/tutorial/scenarios/ards_pc/" title="ARDS with Pressure Control" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/tutorial/js/clipboard.min.js?1562980498"></script>
+    <script src="/tutorial/js/perfect-scrollbar.min.js?1562980498"></script>
+    <script src="/tutorial/js/perfect-scrollbar.jquery.min.js?1562980498"></script>
+    <script src="/tutorial/js/jquery.sticky.js?1562980498"></script>
+    <script src="/tutorial/js/featherlight.min.js?1562980498"></script>
+    <script src="/tutorial/js/html5shiv-printshiv.min.js?1562980498"></script>
+    <script src="/tutorial/js/highlight.pack.js?1562980498"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/tutorial/js/modernizr.custom-3.6.0.js?1562980498"></script>
+    <script src="/tutorial/js/learn.js?1562980498"></script>
+    <script src="/tutorial/js/hugo-learn.js?1562980498"></script>
+
+    <link href="/tutorial/mermaid/mermaid.css?1562980498" rel="stylesheet" />
+    <script src="/tutorial/mermaid/mermaid.js?1562980498"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

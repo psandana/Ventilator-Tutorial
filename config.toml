@@ -1,8 +1,8 @@
-baseURL = "/book"
+baseURL = "/tutorial"
 languageCode = "en-us"
-title = "Interactive Book on Ventilator Managment"
+title = "Ventilator Managment Tutorial"
 author = "Sami Safadi"
 theme = "hugo-theme-learn"
-publishDir = "book"
+publishDir = "tutorial"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
